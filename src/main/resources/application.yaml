@@ -5,7 +5,7 @@ spring:
  
   data:
     mongodb:
-      uri: mongodb://nikita-mongo-container:27018/order-service
+      uri: mongodb://nikita-mongo-container:27017/order-service
 
       
 eureka:
