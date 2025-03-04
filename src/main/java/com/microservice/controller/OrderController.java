@@ -20,6 +20,7 @@ import com.microservice.service.OrderService;
 
 @RestController @RequestMapping("/order")
  @CrossOrigin(origins = "*")
+
 public class OrderController {
 	
 	

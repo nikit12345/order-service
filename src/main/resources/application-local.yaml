@@ -1,0 +1,27 @@
+
+spring: 
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/orderdb
+      #uri: mongodb://nikita-mongo-container:27017/order-service
+
+      
+eureka:
+ instance:
+   prefer-ip-address: true
+   
+ client:
+   serviceUrl:
+     defaultZone: http://localhost:8761/eureka
+     #defaultZone: http://eureka-service:8761/eureka
+     
+   fetch-registry: true
+   register-with-eureka: true
+   
+   
+   
+
+
+  
+
+ 
